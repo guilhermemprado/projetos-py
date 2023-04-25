@@ -31,6 +31,7 @@ def deposito(saldo, valor, extrato, /):
 
         # Informa que a operação foi realizada com sucesso.
         print("Depósito realizado com sucesso!")
+
     else: # Se form menor e igual a 0.
         # Valor do deposito e inválido.
         print("Operação falhou! O valor informado é inválido.")
@@ -62,6 +63,7 @@ def retirada(opcao, /, *, saldo, valor, extrato, limite, numero_saques, limite_s
         # Diminui o saldo com o valor do saque·
         saldo -= valor
 
+        # Armazena o tipo da mensagem conforme a opção selecionada.
         if opcao == "s": mensagem = "Saque"
         elif opcao == "t": mensagem = "Tranferencia"
         elif opcao == "p": mensagem = "Pagamento"
