@@ -560,5 +560,4 @@ def main():
         else:
             print("\n@@@ Operação inválida, por favor selecione novamente a operação desejada. @@@")
 
-
 main()
