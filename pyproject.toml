@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sistemabanco"
+version = "1.0.0"
+description = "teste"
+authors = ["Guilherme Mattos Arruda de Paula Prado"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tweepy = "^4.14.0"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
