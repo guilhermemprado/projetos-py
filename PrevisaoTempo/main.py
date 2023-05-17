@@ -81,7 +81,7 @@ def informacao(cidade):
         # Imagem tempo.
         nome_imagem = requisicao['weather'][0]['icon']
         imagem_temp[
-            'file'] = f'/home/prado/Documentos/Projetos-py/SistemaBanco/Aulas/PrevisaoTempo/imagens/{nome_imagem}.png'
+            'file'] = f'/home/prado/Documentos/Projetos-py/SistemaBanco/PrevisaoTempo/imagens/{nome_imagem}.png'
 
         # Temperaturas.
         temperatura = round(requisicao['main']['temp'] - 273.15)
@@ -118,7 +118,7 @@ e_local.insert(0, 'Goiânia')
 
 # Abrindo imagem do botão.
 url_imagem_pesq = Image.open(
-    '/home/prado/Documentos/Projetos-py/SistemaBanco/Aulas/PrevisaoTempo/imagens/lupa.ico')
+    '/home/prado/Documentos/Projetos-py/SistemaBanco/PrevisaoTempo/imagens/lupa.ico')
 resize_img_pesq = url_imagem_pesq.resize((20, 20), Image.BICUBIC)
 new_image_pesq = ImageTk.PhotoImage(resize_img_pesq)
 
