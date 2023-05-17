@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "mongo-test"
-version = "0.1.0"
+version = "0.1"
 description = ""
-authors = ["Guilherme Carvalho <guilherme.carvalho-ext@viavarejo.com.br>"]
+authors = ["Guilherme Mattos <guimattos1983@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
