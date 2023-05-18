@@ -85,7 +85,7 @@ pyautogui.press('tab')
 pyautogui.press('tab')
 
 # Preenche o assunto.
-pyautogui.typewrite('Relatório automatizado de vendas.'.encode().decode('utf-8')isascii())
+pyautogui.typewrite('Relatório automatizado de vendas.'.encode().decode('utf-8'))
 
 time.sleep(.01)
 
