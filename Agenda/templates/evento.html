@@ -8,7 +8,7 @@
     <label>Título</label>
     <input type="number" name="id_evento" value="{{ evento.id }}" hidden>
     <br>
-    <input type="text" name="titulo", size="20" value="{{ evento.titulo }}">
+    <input type="text" name="titulo" , size="20" value="{{ evento.titulo }}">
     <br>
     <label>Data do Evento:</label>
     <br>
@@ -16,11 +16,11 @@
     <br>
     <label>Descrição</label>
     <br>
-    <textarea name="descricao" rows="5", cols="20">{{ evento.descricao }}</textarea>
+    <textarea name="descricao" rows="5" , cols="20">{{ evento.descricao }}</textarea>
     <br><br>
     <button type="submit">Salvar</button>
     <a href="/">
-        <button type="cancelar">Cancelar</button>
+        <button type="button">Cancelar</button>
     </a>
 </form>
 

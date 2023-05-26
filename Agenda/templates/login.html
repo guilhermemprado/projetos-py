@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Agenda</title>
 </head>
+
 <body>
     <h1>Login</h1>
     <form action="submit" method="POST">{% csrf_token %}
@@ -17,9 +19,10 @@
     </form>
 
     {% for message in messages %}
-        <div align="center">
-            <strong>Erro</strong>{{ message }}
-        </div>
+    <div align="center">
+        <strong>Erro</strong>{{ message }}
+    </div>
     {% endfor %}
 </body>
+
 </html>
